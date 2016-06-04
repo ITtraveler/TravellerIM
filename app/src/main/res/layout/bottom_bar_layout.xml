@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBarBG"
+    android:orientation="vertical" >
+	<include layout="@layout/parting_line"/>
+    <RadioGroup
+        android:id="@+id/tab_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"      
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/tab1"
+            style="@style/tab_item_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="@string/recent_people"
+            android:textColor="@color/colorBarText"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/tab2"
+            style="@style/tab_item_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="@string/friend"
+            android:textColor="@color/colorBarText"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/tab3"
+            style="@style/tab_item_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="@string/setting"
+            android:textColor="@color/colorBarText"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+</LinearLayout>

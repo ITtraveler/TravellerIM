@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hgs.travelerim">
+    <uses-sdk android:minSdkVersion="14"/>
+   <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop" />
+        <activity android:name=".RegistActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".SearchFriActivity" />
+
+        <!--exported = false  使此服务私有化-->
+        <service android:name=".Service.PresenceService"
+            android:exported="false"
+            />
+    </application>
+
+</manifest>

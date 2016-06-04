@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorToast">#ffffff</color>
+    <color name="colorLine">#c9c9c9</color>
+    <color name="colorBarBG">#01ec5f</color>
+    <color name="colorBarText">#2069fa</color>
+    <color name="colorSend">#343f56</color>
+    <color name="colorChatBar">#bdc9e2</color>
+    <color name="colorChatTimeLine">#0876fd</color>
+    <color name="colorTopSearch">#f53d95c4</color>
+    <color name="colorTopS">#f5fd0303</color>
+    <color name="colorTopE">#f50392ff</color>
+</resources>
